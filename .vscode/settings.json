@@ -1,0 +1,36 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.formatOnType": false,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+
+  "files.maxMemoryForLargeFilesMB": 8192,
+
+  "javascript.suggest.paths": true,
+  "javascript.suggest.autoImports": true,
+  "javascript.suggest.completeFunctionCalls": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "prettier.documentSelectors": ["**/*.{css,scss,ts,tsx,js,jsx,json}"],
+
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "/usr/local/bin/black",
+
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.git": true,
+    "**/android/build": true,
+    "**/android/app/build": true,
+    "**/index.android.bundle": true,
+    "**/ios/build": true,
+    "**/ios/Pods": true,
+    "**/Podfile.lock": true
+  },
+
+  "[css][javascript][javascriptreact][json][scss][typescript][typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  }
+}
